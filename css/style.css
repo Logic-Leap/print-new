@@ -1,8 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
-    --light: #EFF5FF;
-    --dark: #1B2C51;
+    --primary: ##feca38;
+    --green: ##00ab6a;
+    --dark: #000000;
+}
+.text-green{
+    color: #00ab6a;
 }
 
 .fw-medium {
@@ -49,7 +52,7 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #FFFFFF;
+    color: #00ab6a;
 }
 
 .btn-square {
