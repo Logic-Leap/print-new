@@ -237,7 +237,11 @@
 }
 @media only screen and (max-width: 600px) {
     .width-change {
-      width: 100%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 21em;
+        margin-left: -3em;
      
       /* Set width to 100% on screens smaller than 600px */
     }
