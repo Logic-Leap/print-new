@@ -1,14 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: ##feca38;
-    --green: ##00ab6a;
+    --primary:#00000022;
+    --green: black;
     --dark: #000000;
 }
 .ed{
     font-size: medium;
 }
 .call-action {
-	background: #00ab6a;
+	background: black;
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -21,14 +21,14 @@
 }
 
 .call-action .content h2 {
-	color: #000000;
+	color: #feca38;
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 46px;
 }
 
 .call-action .content p {
-	color: #000000;
+	color: #feca38;
 	margin: 30px 0px;
 	font-size: 15px;
 }
@@ -82,12 +82,12 @@
 }
 
 .call-action .content .btn:before {
-	background: #00ab6a;
+	background: black;
 }
 
 .call-action .content .btn:hover {
-	background: #00ab6a;
-	color: #000000;
+	background: #000000;
+	color: #feca38;
 }
 
 .call-action .content .btn:last-child {
@@ -234,7 +234,9 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: green;
+    color: rgb(44, 41, 41);
+    font-weight: 900;
+    transition: 0.5s;
 }
 
 @media (max-width: 991.98px) {
@@ -482,14 +484,15 @@
 
 .team-item .team-social .btn {
     display: inline-flex;
-    color: var(--primary);
-    background: #FFFFFF;
+    color: #feca38;
+    background: #000000;
     border-radius: 40px;
 }
 
 .team-item .team-social .btn:hover {
-    color: #00ab6a;
-    background: var(--primary);
+    color: #feca38;
+    background: black;
+   
 }
 
 
