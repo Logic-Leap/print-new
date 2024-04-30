@@ -670,3 +670,7 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.text-black-css{
+    color: #000000;
+}
