@@ -101,7 +101,7 @@
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 500;
-    text-transform: uppercase;
+    
     outline: none;
 }
 
@@ -361,7 +361,7 @@
 }
 
 .team-item .team-social .btn:hover {
-    color: #FFFFFF;
+    color: #00ab6a;
     background: var(--primary);
 }
 
