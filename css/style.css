@@ -51,6 +51,12 @@
     .text-start{
         margin-top: -2em;
     }
+    .phn{
+        margin-top: -1px;
+    }
+    .cont{
+        height: 4em;
+    }
   }
   
 .call-action .content .btn {
