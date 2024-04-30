@@ -7,7 +7,106 @@
 .ed{
     font-size: medium;
 }
+.call-action {
+	background: #00ab6a;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-repeat: no-repeat;
+}
 
+.call-action .content {
+	text-align: center;
+	padding: 100px 265px;
+}
+
+.call-action .content h2 {
+	color: #000000;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 46px;
+}
+
+.call-action .content p {
+	color: #000000;
+	margin: 30px 0px;
+	font-size: 15px;
+}
+
+/* @media screen and (max-width: 767px) {
+	.mob {
+	  height: 229px;
+	}
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+	.portfolio.single-pf{
+	  height: 362px;
+	}
+  }
+   */
+
+.call-action .content .btn {
+	background: #feca38;
+	margin-right: 20px;
+	font-weight: 500;
+	border: 1px solid #2222;
+	color: #000000;
+}
+
+.call-action .content .btn:before {
+	background: #00ab6a;
+}
+
+.call-action .content .btn:hover {
+	background: #00ab6a;
+	color: #000000;
+}
+
+.call-action .content .btn:last-child {
+	margin-right: 0px;
+}
+
+.call-action .content .second {
+	border: 1px solid #fff;
+	color: #fff;
+	background: transparent;
+	color: #fff !important;
+}
+
+.call-action .content .second:before {
+	background: #fff;
+}
+
+
+
+.call-action .content .second i {
+	margin-left: 10px;
+}
+.call-action .content {
+    padding: 0;
+    padding: 70px 0;
+}
+
+.call-action .content h2 {
+    font-size: 28px;
+    line-height: 40px;
+}
+.call-action .content {
+    padding: 0;
+    padding: 70px 0;
+}
+.call-action .content h2 {
+    font-size: 28px;
+    line-height: 40px;
+}
+.call-action .content {
+    padding: 0;
+    padding: 70px 0;
+}
+.call-action .content h2 {
+    font-size: 28px;
+    line-height: 40px;
+}
 .text-green{
     color: #00ab6a;
 }
