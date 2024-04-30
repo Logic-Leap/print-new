@@ -57,7 +57,13 @@
         font-size: 13px;
     }
     .cont{
-        height: 4em;
+        height: 3em;
+    }
+    .d-{
+        display: none !important;
+    }
+    .phon{
+        margin-top: -2em;
     }
   }
   
