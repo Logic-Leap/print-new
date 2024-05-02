@@ -4,7 +4,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -55,7 +55,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #000000;
-  background-color: #feca38;
+  background-color: #dbae34;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2822,7 +2822,7 @@ fieldset:disabled .btn {
   border-color: #eff5ff;
 }
 .btn-dark {
-  color: #feca38;
+  color: #dbae34;
   background-color: black;
   border-color: black;
 }
@@ -2833,7 +2833,7 @@ fieldset:disabled .btn {
 }
 .btn-check:focus + .btn-dark,
 .btn-dark:focus {
-  color: #feca38;
+  color: #dbae34;
   background-color: #172545;
   border-color: #162341;
   box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
@@ -6799,7 +6799,7 @@ fieldset:disabled .btn {
   color: #dc3545 !important;
 }
 .text-light {
-  color: #feca38!important;
+  color: #dbae34!important;
 }
 .text-dark {
   color: black !important;
@@ -6808,7 +6808,7 @@ fieldset:disabled .btn {
   color: #212529 !important;
 }
 .text-body {
-  color: #feca38 !important;
+  color: #dbae34 !important;
 }
 .text-muted {
   color: #6c757d !important;
@@ -6841,7 +6841,7 @@ fieldset:disabled .btn {
   background-color: #dc3545 !important;
 }
 .bg-light {
-  background-color: #feca38 !important;
+  background-color: #dbae34 !important;
 }
 .bg-dark {
   background-color: black !important;
@@ -6853,7 +6853,7 @@ fieldset:disabled .btn {
   background-color: #00ab6a;
 }
 .bg-yellow {
-  background-color: #feca38 !important;
+  background-color: #dbae34 !important;
 }
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0);
