@@ -74,20 +74,20 @@
   }
   @media screen and (min-width: 1024px) {
     .logo-black{
-        width: 83px;
+        width: 71px;
     }
   }
   @media screen and (max-width: 767px) {
     .logo-black {
-        width: 77px;
-      margin-top: 21px;
+        width: 57px;
+        margin-top: 5px;
     }
   }
   
   
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .logo-black {
-      width: 87px;
+        width: 72px;
     }
   }
   
