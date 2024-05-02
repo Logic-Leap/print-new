@@ -72,6 +72,24 @@
         margin-top: -2em;
     }
   }
+  @media screen and (min-width: 1024px) {
+    .logo-black{
+        width: 83px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .logo-black {
+        width: 77px;
+      margin-top: 21px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo-black {
+      width: 87px;
+    }
+  }
   
 .call-action .content .btn {
 	background: #feca38;
@@ -151,7 +169,7 @@
     font-weight: 900 !important;
 }
 
-.back-to-top {
+.watsapp {
     position: fixed;
     display: none;
     right: 45px;
