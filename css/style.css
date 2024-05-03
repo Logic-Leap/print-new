@@ -90,14 +90,35 @@
         width: 72px;
     }
   }
-
+  @media only screen and (min-width: 1024px) {
+    .p-lg-0 {
+      padding: 5px !important;
+    }
+  }
+  
+.text-yellow{
+    color: #dbae34;
+}
   .image-slider {
     position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dbae34;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
 
+.button-style:hover {
+    background-color: #c89f2d;
+}
 .image-slider img {
     position: absolute;
     top: 0;
