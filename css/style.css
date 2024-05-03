@@ -21,14 +21,14 @@
 }
 
 .call-action .content h2 {
-	color: #feca38;
+	color: #dbae34;
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 46px;
 }
 
 .call-action .content p {
-	color: #feca38;
+	color: #dbae34;
 	margin: 30px 0px;
 	font-size: 15px;
 }
@@ -90,9 +90,31 @@
         width: 72px;
     }
   }
+
+  .image-slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-slider img.active {
+    opacity: 1;
+}
+
   
 .call-action .content .btn {
-	background: #feca38;
+	background: #dbae34;
 	margin-right: 20px;
 	font-weight: 500;
 	border: 1px solid #2222;
@@ -105,7 +127,7 @@
 
 .call-action .content .btn:hover {
 	background: #000000;
-	color: #feca38;
+	color: #dbae34;
 }
 
 .call-action .content .btn:last-child {
@@ -229,7 +251,9 @@
     font-weight: normal;
 }
 
-
+.nav-links{
+    color: #dbae34;
+}
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
@@ -243,7 +267,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color:#dbae34;
     font-size: 15px;
     font-weight: 500;
     
@@ -252,7 +276,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: rgb(44, 41, 41);
+    color: #dbae34;
     font-weight: 900;
     transition: 0.5s;
 }
