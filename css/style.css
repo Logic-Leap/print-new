@@ -7,6 +7,7 @@
 .ed{
     font-size: medium;
 }
+
 .call-action {
 	background: black;
 	background-size: cover;
@@ -349,6 +350,9 @@
 
 
 /*** Header ***/
+.owl-dots{
+    display: none;
+}
 .header-carousel .owl-carousel-text {
     position: absolute;
     width: 100%;
@@ -373,7 +377,7 @@
     justify-content: space-between;
 }
 
-.header-carousel .owl-nav .owl-prev,
+/* .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
     width: 45px;
     height: 45px;
@@ -415,7 +419,7 @@
     border: 1px solid #FFFFFF;
     border-radius: 15px;
     transition: .5s;
-}
+} */
 
 .header-carousel .owl-dot::after {
     position: absolute;
@@ -447,10 +451,7 @@
     }
   }
   
-.header-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
-}
+
 
 .page-header {
    text-align: center;
@@ -666,18 +667,18 @@
     opacity: 1;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
+/* .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     position: relative;
     color: var(--primary);
     font-size: 45px;
     transition: .5s;
-}
+} */
 
-.testimonial-carousel .owl-nav .owl-prev:hover,
+/* .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--dark);
-}
+} */
 
 
 /*** Footer ***/
