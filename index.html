@@ -872,24 +872,27 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-light rounded h-100 d-flex align-items-center p-5">
-                        <form>
+                        <form action="https://formsubmit.co/logicleap00@gmail.com" method="post">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" required class="form-control border-0" placeholder="Your Name"
+                                    <input type="text" name="name" required class="form-control border-0" placeholder="Your Name"
+                                        style="height: 55px;">
+                                </div>
+                                <!--succes page-->
+                                <input type="hidden" name="_next" id="" value="service.html">
+                                <input type="hidden" name="_captcha" id="" value="false">
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" name="email" required class="form-control border-0" placeholder="Your Email"
                                         style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" required class="form-control border-0" placeholder="Your Email"
-                                        style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" required class="form-control border-0" placeholder="Your Mobile"
+                                    <input type="text" name="phone_number" required class="form-control border-0" placeholder="Your Mobile"
                                         style="height: 55px;">
                                 </div>
 
 
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" rows="5"
+                                    <textarea name="message" class="form-control border-0" rows="5"
                                         placeholder="What type of service do you need"></textarea>
                                 </div>
                                 <div class="col-12">
@@ -1019,7 +1022,7 @@
                 margin:0,
                 nav:false,
                 autoplay:true,
-                autoplayTimeout:4000, // Adjust autoplay speed in milliseconds
+                autoplayTimeout:4000,
                 autoplayHoverPause:true,
                 responsive:{
                     0:{
