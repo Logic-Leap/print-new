@@ -523,7 +523,7 @@
 }
 
 .team-item:hover img {
-    top: -30px;
+    top: -33px;
 }
 
 .team-item .team-text {
@@ -548,14 +548,14 @@
 
 .team-item .team-social .btn {
     display: inline-flex;
-    color: #feca38;
-    background: #000000;
+    color: #c89f2d ;
+    background: #000000 ;
     border-radius: 40px;
 }
 
 .team-item .team-social .btn:hover {
-    color: #feca38;
-    background: black;
+    color: #000000;
+    background: #c89f2d;
    
 }
 

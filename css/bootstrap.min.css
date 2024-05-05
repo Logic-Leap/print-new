@@ -6805,6 +6805,9 @@ fieldset:disabled .btn {
 .text-light {
   color: #dbae34!important;
 }
+.ser-color{
+  color: black;
+}
 .text-dark {
   color: black !important;
 }
