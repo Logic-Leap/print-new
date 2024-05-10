@@ -312,6 +312,9 @@
     .navbar .navbar-nav {
         border-top: 1px solid #000000;
     }
+    .logo{
+        margin-left: 0;
+    }
 }
 
 .navbar .navbar-brand,
